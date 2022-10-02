@@ -1,0 +1,63 @@
+html, body{
+    margin: 0px;
+    }
+
+/* Color del encabezado, actualmente rojo */
+header {
+    background-color: #b41a1a;
+    color: #fff;
+    width: 98%;
+    height: 200px;
+    margin: 1%;
+    }
+
+/* Espeficicaciones de los títulos */
+header h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sansserif;
+    padding: 60px;
+    font-size: 50px;
+    }
+
+/* Color del fondo de los cuadros, actualmente negro  */
+.wrapper {
+    background-color: #00040a;
+    width: 98%;
+    height: 400px;
+    margin: 1%;
+    }
+
+/* Color de los cuadros, actualmente amarillo  */
+.wrapper .page{
+    width: 19%;
+    height: 180px;
+    background-color: #b9ca1f;
+    display: inline-block;
+    margin: 0.4%;
+    }
+
+/* Color del copyright, actualmente gris */
+footer {
+    background-color: #5a5a5a;
+    color: #fff;
+    width: 98%;
+    height: 60px;
+    margin: 1%;
+    }
+    
+/* Especificaciones de las letras del copy */
+footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    }
+    
+
+.image_link{
+    height: 180px;
+    width: 18.5vw;
+    margin: 1% 0 1% 1%;
+    }
+    .image_link:hover {
+    filter: grayscale(70%);
+    }
